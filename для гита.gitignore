@@ -1,0 +1,29 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Виртуальное окружение
+venv/
+.env/
+.venv/
+env/
+
+# Файлы конфигурации IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.swp
+*.DS_Store
+
+# Данные, которые не надо публиковать (если есть локальные CSV)
+data_raw/
+*.csv
+*.xlsx
+
+# Файлы настроек, содержащие секреты
+.env
